@@ -1,0 +1,70 @@
+.home-images{
+    height: 400px;
+    width:600px;
+}
+.navbar{
+    height:100px;
+}
+.nav-link{
+    padding-right: 100px !important;
+    font-size: x-large;
+}
+.navbar-brand{
+    padding-left: 250px;
+    font-size: 48px;
+}
+.container{
+    padding:50px 0px;    
+}
+h1{
+    font-size: 64px;
+    color:rgb(3, 61, 32);
+}
+a{
+    text-decoration: none;
+}
+.col-lg-8{
+    padding: 35px;
+    border-radius: 30px;
+    
+}
+.input-group-lg label{
+    font-size: 24px;
+    color:rgb(3, 61, 32);
+}
+.dropdown-menu{
+    width:100%;
+}
+.dropdown-menu a:active{
+    background-color:#b02a37 !important;
+}
+.carousel-item img{
+    height:720px;
+}
+.carousel-caption h1{
+    color:beige;
+    font-weight: var(--bs-nav-link-font-weight);
+}
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+  }
+
+  .rating>label {
+    display: inline-block;
+    padding: 5px;
+    font-size: 24px;
+  }
+
+  .rating>label:hover,
+  .rating>label:hover~label,
+  .rating>input:checked~label {
+    color: gold;
+  }
+
+  .rating>input:checked~label:hover,
+  .rating>input:checked~label:hover~label,
+  .rating>input:checked~label:hover~label:hover,
+  .rating>label:hover~input:checked~label {
+    color: #FFD700;
+  }
